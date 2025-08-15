@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgoraMind - Profile</title>
+    <link rel="icon" type="image/png" href="agromind.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans&display=swap');
+
+        body {
+            margin: 0;
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f9f7f4;
+            color: #333;
+            font-size: 1rem;
+        }
+
+        header {
+            background-color: #1d3557;
+            color: white;
+            padding: 10px 40px;
+            text-align: center;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+        }
+
+        .logo {
+            max-width: 120px;
+            height: auto;
+            vertical-align: middle;
+        }
+
+        header h1 {
+            font-family: 'Merriweather', serif;
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        header p {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #1d3557;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 40px;
+        }
+
+        h2 {
+            font-family: 'Merriweather', serif;
+            color: #1d3557;
+        }
+
+        .profile-wrapper {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+
+        .profile-pic {
+            flex: 1;
+            min-width: 200px;
+            max-width: 250px;
+        }
+
+        .profile-pic img {
+            width: 100%;
+            border-radius: 10px;
+            border: 3px solid #1d3557;
+        }
+
+        .profile-info {
+            flex: 2;
+            min-width: 250px;
+        }
+
+        .profile-info ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .profile-info li {
+            margin-bottom: 8px;
+        }
+
+        footer {
+            background-color: #1d3557;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div>
+            <img src="agromind.png" alt="AgoraMind Logo" class="logo">
+        </div>
+        <div>
+            <h1>AgoraMind</h1>
+            <p>Marketplace of Ideas</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a href="lifestyle.html">Lifestyle</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h2>About the Author</h2>
+        <div class="profile-wrapper">
+            <div class="profile-pic">
+                <img src="profile.jpg" alt="Neil Jay Lacandazo">
+            </div>
+            <div class="profile-info">
+                <ul>
+                    <li><strong>Full Name:</strong> Neil Jay Rogelio Lacandazo</li>
+                    <li><strong>Age:</strong> 20</li>
+                    <li><strong>Collge/University:</strong> Mandaluyong College of Science and Technology</li>
+                    <li><strong>Field of Study:</strong> BS Information Systems</li>
+                    <li><strong>Career Goal:</strong> Data Engineer / Full-Stack Developer</li>
+                </ul>
+                <p>
+                    I am a passionate Information Systems student who believes in continuous learning and applying 
+                    knowledge through real-world projects. From implementing and maintaining data workflows, building ETL/ELT processes, data modelling, data orchestration, data security, building web applications to configuring various things.
+                </p>
+                <p>
+                    <em>Fun Fact:</em> I enjoy turning challenges into opportunities for growth.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 AgoraMind | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
